@@ -30,6 +30,7 @@ Flask-SSE==1.0.0
 Flask-WTF==1.2.2
 fonttools==4.53.0
 greenlet==3.0.3
+gunicorn==26.0.0
 idna==3.10
 importlib_resources==6.5.2
 itsdangerous==2.2.0
