@@ -11,7 +11,7 @@ function App() {
 
     const response =
       await fetch(
-        "http://localhost:5000/students"
+        "https://student-management-vvlu.onrender.com/students"
       );
 
     const data =
@@ -30,7 +30,7 @@ function App() {
   const addStudent = async (name, course) => {
 
       await fetch(
-        "http://localhost:5000/students",
+        "https://student-management-vvlu.onrender.com/students",
         {
           method: "POST",
 
@@ -54,7 +54,7 @@ function App() {
     async (id) => {
 
       const res=await fetch(
-        `http://localhost:5000/students/${id}`,
+        `https://student-management-vvlu.onrender.com/${id}`,
         {
           method: "DELETE"
         }
