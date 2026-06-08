@@ -54,7 +54,7 @@ function App() {
     async (id) => {
 
       const res=await fetch(
-        `https://student-management-vvlu.onrender.com/${id}`,
+        `https://student-management-vvlu.onrender.com/students/${id}`,
         {
           method: "DELETE"
         }
