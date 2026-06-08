@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 40px auto;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.student-card {
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+}
